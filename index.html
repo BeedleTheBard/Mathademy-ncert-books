@@ -1,33 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Project</title>
-    <link rel="stylesheet" href="idx.css">
-</head>
-<body>
-    <h1>Using CSS flexbox layout</h1>
-    <div class="flex-container">
-        <div class="class-1"> NCERT book for Class-1<button>Download</button></div>
-        <div class="class-2"> NCERT book for Class-2<button>Download</button></div>
-        <div class="class-3"> NCERT book for Class-3<button>Download</button></div>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>test page</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/mathademy-logo.png" alt="Mathademy logo" height="50">
+      <div class="menubar">
+        <button>Home</button>
+        <button>Contacts</button>
+        <button>About</button>
+        <button>Support</button>
+      </div>
     </div>
-    <div class="flex-container">
-        <div class="class-4"> NCERT book for Class-4<button>Download</button></div>
-        <div class="class-5"> NCERT book for Class-5<button>Download</button></div>
-        <div class="class-6"> NCERT book for Class-6<button>Download</button></div>
+    <h1>NCERT Books<br /><span>Books you need</span></h1>
+    <div class="ncertintro">
+    <p>
+      The National Council of Educational Research and Training (NCERT), New
+      Delhi was brought into existence to aid the Indian governments in the
+      matters of designing, research and the establishment of a universal
+      framework of school education in India. The NCERT has published textbooks
+      for all grades 1 - 12 and they have been religiously accepted, referred to
+      and followed by CBSE board of education, apart from several other state
+      boards.
+    </p>
+    <img src="images/NCERT-logo.webp" alt="NCERT Logo" width="200">
     </div>
-    <div class="flex-container">
-        <div class="class-7"> NCERT book for Class-7<button>Download</button></div>
-        <div class="class-8"> NCERT book for Class-8<button>Download</button></div>
-        <div class="class-9"> NCERT book for Class-9<button>Download</button></div>
+    <h1 id="section">What sets NCERT books apart:</h1>
+    <div class="outerflex">
+    <div class="innerflex">
+    <div id="element1">
+      <p>
+      1. The writers of these books are academic experts with extensive
+      experience and strong educational background and have penned down their
+      vast knowledge in these books in a very simply language.<br /><br />
+      2. The NCERT has ensured the publishing of these books in Hindi, English
+      and Urdu so that their usage can encompass all Indian states and so that
+      no student remains deprived of quality education because of language
+      barrier.
+      </p>
     </div>
-    <div class="flex-container">
-        <div class="class-10">NCERT book for Class-10<button>Download</button></div>
-        <div class="class-11">NCERT book for Class-11<button>Download</button></div>
-        <div class="class-12">NCERT book for Class-12<button>Download</button></div>
+    <div id="element1">
+      <p>
+      3. All of these textbooks are highly credible and are inclusive of all the
+      topics and contain detailed text about all the necessary concepts, which
+      are followed by several exercises with their solutions and answers.<br /><br />
+      4. They provide a lot of conceptual clarity and are hence essential even
+      in JEE and NEET exams as preparatory material.
+      </p>
     </div>
-</body>
+    </div>
+    <p id="element2">
+      5. They are of paramount importance even for the UPSC exams and banking
+      exams and likewise, a lot of graduates take to them for the preparation of
+      the mentioned exams.<br /><br />
+      To know more about NCERT books, visit
+      <a href="//www.mathademy.com/blog/importance-of-ncert-books/"
+        >Importance of NCERT Books for Exam Preparation</a>.
+    </p>
+    </div>
+    <h1 id="givenbelow">
+      Given below are the links to the
+      <span>NCERT mathematics textbooks of Class 1 to class 12</span>. Click on them
+      and download them for FREE so that you can end your search for them. Click
+      on the download button and access PDF of any class whose NCERT mathematics
+      textbook you wish to avail and have a great time studying conveniently.
+    </h1>
+    <div class="flex-container">
+      <div class="flex-element">
+        <img
+          src="images/class-1.jpg"
+          alt="NCERT Class 1 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 1 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-2.jpg"
+          alt="NCERT Class 2 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 2 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-3.jpg"
+          alt="NCERT Class 3 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 3 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-4.jpg"
+          alt="NCERT Class 4 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 4 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-5.jpg"
+          alt="NCERT Class 5 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 5 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-6.jpg"
+          alt="NCERT Class 6 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 6 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-7.jpg"
+          alt="NCERT Class 7 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 7 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-8.jpg"
+          alt="NCERT Class 8 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 8 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-9.jpg"
+          alt="NCERT Class 9 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 9 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-10.jpg"
+          alt="NCERT Class 10 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 10 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-11.jpg"
+          alt="NCERT Class 11 Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 11 Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-12-1.jpg"
+          alt="NCERT Class 12 Part-I Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 12 Part-I Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+      <div class="flex-element">
+        <img
+          src="images/class-12-2.jpg"
+          alt="NCERT Class 12 Part-II Mathematics"
+          width="200"
+        />
+        <p>NCERT Class 12 Part-II Mathematics Textbook</p>
+        <button>Download</button>
+      </div>
+    </div>
+  </body>
 </html>
