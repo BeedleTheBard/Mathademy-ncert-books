@@ -1,0 +1,140 @@
+body{
+    font-family:  Helvetica;
+}
+
+.header{
+    background-color: #92B4EC;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.menubar{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#section{
+    text-align: center;
+    padding-top: 35vh;
+    padding-bottom: 2vh;
+    font-size: 50px;
+}
+
+#givenbelow{
+    text-align:center;
+    padding-top: 15vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15vh;
+    font-size: 25px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#givenbelow span{
+    color:#92B4EC;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    padding: 45vh;
+    font-size: 50px;
+}
+
+h1 span{
+    font-size: 35px;
+}
+
+p{
+    margin-left: 15%;;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+.ncertintro{
+    display: flex;
+    background-color: #92B4EC;
+    color: white;
+    align-items: center;
+    margin-left:10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    padding-left: -80px;
+    box-shadow: 7px 7px 5px #ffe69a;
+}
+
+.outerflex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.innerflex{
+    display: flex;
+}
+
+#element1{
+    box-sizing: border-box;
+    background-color: #92B4EC;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #ffe69a;
+}
+
+#element2{
+    box-sizing: border-box;
+    border: 3px solid #92B4EC;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-element img{
+    box-shadow: 7px 7px #ffe69a;
+}
+
+.flex-element{
+    flex: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button{
+    font-size: 16px;
+    padding: 6px;
+    border-color: #92B4EC;
+    background-color: white;
+    color: #92b4ec;
+    border-radius: 5px;
+}
+
+button:hover{
+    padding: 6px;
+    background-color: #92B4EC;
+    color: white;
+    border-radius: 3px;
+}
+
+
