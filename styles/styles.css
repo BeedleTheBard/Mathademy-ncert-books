@@ -56,6 +56,7 @@ p{
     color: black;
     margin-left: 10%;
     margin-right: 10%;
+    /* background-color: #b9cef0; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -153,10 +154,11 @@ p{
 
 .button-27 {
   appearance: none;
-  background-color: #16d2fc;
+  background-color: white;
+  color: #92b4ec;
+  border:3px solid #92B4EC;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -168,26 +170,19 @@ p{
   outline: none;
   padding: 10px 24px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  /* transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   /* width: 100%; */ 
-  will-change: transform;
+  
 }
 
-.button-27:disabled {
-  pointer-events: none;
-}
 
 .button-27:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+    background-color: #92B4EC;
+    color: white;
+    cursor: pointer;
 }
-
-.button-27:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-
