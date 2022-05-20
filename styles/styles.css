@@ -7,33 +7,36 @@
 
 #givenbelow{
     color: black;
-    margin-left:10%;
-    margin-right: 10%;
-    padding: 2vh;
+    margin-left:15%;
+    margin-right: 15%;
+    padding: 2vh 0vh;
 }
 
 #givenbelow b{
     color:#92b4ec;
 }
 
-h1{
+h2{
     text-align: center;
     font-size: 30px;
-    padding: 2vh;
+    color: #404040!important;
     font-family: 'Josefin Sans', sans-serif !important;
 }
 
-#heading{
-    background-color: #16d2fc;
+h1{
+    background-color: skyblue;
     font-size: 50px;
     padding: 10vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif !important;
 }
 
 
-p{
+p, li{
     margin-left: 10%;;
     margin-right: 10%;
     font-size: 20px;
+    color:#404040;
     font-family: lato,sans-serif;
 }
 
@@ -41,21 +44,25 @@ p{
     display: flex;
     color: black;
     align-items: center;
-    margin-left:10%;
-    margin-right: 10%;
+    margin-left:15%;
+    margin-right: 15%;
     margin-top: 15px;
 }
 
 .ncertintro p{
-    margin-right: 5%;
+    margin-right: 10px;
 }
 
 #element1{
     box-sizing: border-box;
     align-items: center;
     color: black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    padding: 1vh 0vh;
+    margin-right: 15%;
+    margin-top: 20px;
+    border:1px solid skyblue;
+    border-radius: 20px;
     /* background-color: #b9cef0; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -109,17 +116,17 @@ p{
 .button2{
     font-size: 16px;
     font-weight: 600;
-    padding: 5px 30px;
-    border:3px solid #92B4EC;
+    padding: 8px 30px;
+    border:3px solid skyblue;
     background-color: white;
-    color: #92b4ec;
+    color: skyblue;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
     transition: all 250ms cubic-bezier(.23, 1, 0.32, 1);
 }
 
 .button2:hover{
-    background-color: #92B4EC;
+    background-color: skyblue;
     color: white;
     cursor: pointer;
 }
@@ -185,4 +192,9 @@ p{
     background-color: #92B4EC;
     color: white;
     cursor: pointer;
+}
+
+.image2{
+    box-shadow: 3px 3px white, 7px 7px #ffe69a,  9px 9px 10px lightgray!important;
+    margin-bottom: 15px;
 }
