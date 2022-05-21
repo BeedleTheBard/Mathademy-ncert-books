@@ -190,10 +190,25 @@ p, li{
   
 }
 
-.testimage{
+#abacus{
     position: absolute;
     margin-top:20vh;
     margin-left: 4vw;
+    transform: rotate(15deg);
+}
+
+#cone{
+    position: absolute;
+    margin-top: -20vh;
+    margin-left: 88vw;
+    transform: rotate(-30deg);
+}
+
+#cylinder{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 88vw;
+    transform: rotate(25deg);
 }
 
 .button-27:hover {
