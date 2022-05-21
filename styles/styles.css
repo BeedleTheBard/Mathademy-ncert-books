@@ -9,7 +9,7 @@
     color: black;
     margin-left:15%;
     margin-right: 15%;
-    padding: 2vh 0vh;
+    padding: 5vh 0vh;
 }
 
 #givenbelow b{
@@ -20,15 +20,17 @@ h2{
     text-align: center;
     font-size: 30px;
     color: #404040!important;
-    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Montserrat', sans-serif!important;
 }
 
 h1{
-    background-color: skyblue;
+    background: rgb(139,193,241);
+    background: linear-gradient(90deg, rgba(139,193,241,1) 0%, rgba(65,132,191,1) 50%, rgba(151,197,237,1) 100%);
     font-size: 50px;
     padding: 10vh;
+    color: white!important;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Montserrat', sans-serif!important;
 }
 
 
@@ -78,7 +80,7 @@ p, li{
 }
 
 .flex-element img{
-    box-shadow: 7px 7px #ffe69a;
+    box-shadow: 3px 3px white, 7px 7px #ffe69a,  9px 9px 10px lightgray;
     margin-bottom: 15px;
 }
 
@@ -96,21 +98,22 @@ p, li{
 .button1{
     font-size: 16px;
     font-weight: 600;
-    padding: 6px 20px;
-    border:3px solid #92B4EC;
+    padding: 8px 30px;
+    border:3px solid skyblue;
     background-color: white;
-    color: #92b4ec;
+    color: skyblue;
     border-radius: 20px;
-    transition: all 250ms cubic-bezier(.23, 1, 0.32, 1);
+    transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
 }
 .button1:hover{
-    background-color: #92B4EC;
+    background-color: skyblue;
     color: white;
     cursor: pointer;
 }
 
 .button1:active{
-    font-size: small;
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
 }
 
 .button2{
@@ -121,8 +124,8 @@ p, li{
     background-color: white;
     color: skyblue;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
-    transition: all 250ms cubic-bezier(.23, 1, 0.32, 1);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
 }
 
 .button2:hover{
@@ -132,7 +135,7 @@ p, li{
 }
 
 .button2:active{
-    font-size: small;
+    transform: scale(0.9);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
 }
 
@@ -187,6 +190,11 @@ p, li{
   
 }
 
+.testimage{
+    position: absolute;
+    margin-top:20vh;
+    margin-left: 4vw;
+}
 
 .button-27:hover {
     background-color: #92B4EC;
@@ -195,7 +203,8 @@ p, li{
 }
 
 .image2{
-    box-shadow: 3px 3px white, 7px 7px #ffe69a,  9px 9px 10px lightgray!important;
+    box-shadow: 3px 3px white, 7px 7px rgb(180, 219, 236),  9px 9px 10px lightgray!important;
     margin-bottom: 15px;
 }
+
 
