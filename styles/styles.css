@@ -1,10 +1,3 @@
-#section{
-    text-align: center;
-    padding-top: 35vh;
-    padding-bottom: 2vh;
-    font-size: 50px;
-}
-
 .ncert-p, .flex-element p{
     margin-top: 3%;
     margin-bottom: 3%;
@@ -30,7 +23,7 @@
 
 .ncert-h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     color: #003264;
     font-family: 'Montserrat', sans-serif;
 }
@@ -38,7 +31,7 @@
 .ncert-h1{
     background: rgb(139,193,241);
     background: linear-gradient(90deg, rgba(139,193,241,1) 0%, rgba(65,132,191,1) 50%, rgba(151,197,237,1) 100%);
-    font-size: 50px;
+    font-size: 45px;
     padding: 80px 20px;
     color: white;
     text-align: center;
@@ -86,27 +79,6 @@
     margin-bottom: 25px;
 }
 
-.button1{
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 30px;
-    border:3px solid skyblue;
-    background-color: white;
-    color: skyblue;
-    border-radius: 20px;
-    transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
-}
-.button1:hover{
-    background-color: skyblue;
-    color: white;
-    cursor: pointer;
-}
-
-.button1:active{
-    transform: scale(0.9);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
-}
-
 .button2{
     font-size: 18px;
     font-weight: 600;
@@ -131,56 +103,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
 }
 
-.button3{
-    font-size: 16px;
-    font-weight: 600;
-    padding: 4px 30px;
-    border:3px solid #92B4EC;
-    background-color: white;
-    color: #92b4ec;
-    transition: all 250ms cubic-bezier(.23, 1, 0.32, 1);
-}
-
-.button3:hover{
-    background-color: #92B4EC;
-    color: white;
-    cursor: pointer;
-}
-
-.button3:active{
-    font-size: small;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
-}
-
-/* CSS */
-
-.button-27 {
-  appearance: none;
-  background-color: white;
-  color: #92b4ec;
-  border:3px solid #92B4EC;
-  border-radius: 15px;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  min-height: 60px;
-  min-width: 0;
-  outline: none;
-  padding: 10px 24px;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
-  text-decoration: none;
-  /* transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  /* width: 100%; */ 
-  
-}
 
 .imagecontainer{
     position: relative;
@@ -188,8 +110,8 @@
 
 #abacus{
     position: absolute;
-    margin-top:20%;
-    margin-left: 4%;
+    margin-top: 10vh;
+    margin-left: 4vw;
     transform: rotate(15deg);
 }
 
@@ -202,48 +124,51 @@
 
 #cylinder{
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 40vh;
     margin-left: 88vw;
     transform: rotate(25deg);
 }
 
-.button-27:hover {
-    background-color: #92B4EC;
-    color: white;
-    cursor: pointer;
-}
 
 @media only screen and (max-width: 550px){
     .ncert-p, .flex-element p{
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-left: 12%;
-        margin-right: 12%;
+        margin: 3% 7%;
         font-size: 20px;
-        color: black;
+        text-align:justify;
         font-family: Lato,sans-serif;
     }
+
+    .flex-element p{
+        text-align: center!important;
+    }
+
     #element1 li, #element1 p{
         margin-left: 9%;
         margin-right: 9%;
         font-size: 20px;
         text-align: justify;
-        color: black;
         font-family: Lato,sans-serif;
     }
-    #element1{
-        margin-left: 12%;
-        padding: 1vh 0vh;
-        margin-right: 12%;
-        margin-top: 20px;
+
+    .ncert-h2{
+        font-size: 25px;
     }
 
-    #abacus, #cone, #cylinder{
-        display: none;
+    #element1{
+        margin-left: 4%;
+        padding: 1vh 0vh;
+        margin-right: 4%;
+        margin-top: 20px;
     }
 
     .flex-element img{
         width: 76%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #abacus, #cone, #cylinder{
+        display: none;
     }
 }
 
