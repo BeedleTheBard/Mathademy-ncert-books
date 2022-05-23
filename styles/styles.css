@@ -1,10 +1,6 @@
-.ncert-p, .flex-element p{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
+.ncert-p, .ncert-flex-element p{
+    margin: 3% 15%;
     font-size: 20px;
-    color: black;
     font-family: Lato,sans-serif;
 }
 
@@ -12,12 +8,10 @@
     color:#92b4ec;
 }
 
-#element1 li, #element1 p{
-    margin-left: 7%;
-    margin-right: 7%;
+#ncert-element1 li, #ncert-element1 p{
+    margin: 0 7%;
     font-size: 20px;
     text-align: justify;
-    color: black;
     font-family: Lato,sans-serif;
 }
 
@@ -39,47 +33,38 @@
 }
 
 
-#element1{
+#ncert-element1{
     box-sizing: border-box;
     align-items: center;
-    color: black;
-    margin-left: 15%;
-    padding: 1vh 0vh;
-    margin-right: 15%;
-    margin-top: 20px;
+    margin:0 15%;
+    padding: 1vh 0;
     border:1px solid skyblue;
     border-radius: 20px;
-    /* background-color: #b9cef0; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
-.flex-container{
+.ncert-flex-container{
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin:0 10%;
 }
 
-.flex-element img{
+.ncert-flex-element img{
     box-shadow: 3px 3px white, 7px 7px #ffe69a,  9px 9px 10px lightgray;
     margin-bottom: 15px;
 }
 
-.flex-element{
+.ncert-flex-element{
     flex: 400px;
     display: flex;
     flex-direction: column;
     align-items:center;
     text-align: center;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin:25px 0;
 }
 
-.button2{
+.ncert-button2{
     font-size: 18px;
     font-weight: 600;
     padding: 8px 30px;
@@ -91,61 +76,59 @@
     transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
 }
 
-.button2:hover{
+.ncert-button2:hover{
     background-color: skyblue;
     color: white!important;
     cursor: pointer;
     text-decoration: none;
 }
 
-.button2:active{
+.ncert-button2:active{
     transform: scale(0.9);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 2px;
 }
 
 
-.imagecontainer{
+.ncert-imagecontainer{
     position: relative;
 }
 
-#abacus{
+#ncert-cone{
     position: absolute;
-    margin-top: 10vh;
-    margin-left: 4vw;
-    transform: rotate(15deg);
-}
-
-#cone{
-    position: absolute;
-    margin-top: 0vh;
-    margin-left: 88vw;
+    top: 5vh;
+    left: 87vw;
     transform: rotate(-30deg);
 }
 
-#cylinder{
+#ncert-abacus{
     position: absolute;
-    margin-top: 40vh;
-    margin-left: 88vw;
+    top: 45vh;
+    left: 3vw;
+    transform: rotate(15deg);
+}
+
+#ncert-cylinder{
+    position: absolute;
+    top: 4vh;
+    left: 87vw;
     transform: rotate(25deg);
 }
 
 
-@media only screen and (max-width: 550px){
-    .ncert-p, .flex-element p{
-        margin: 3% 7%;
+@media only screen and (max-width: 920px){
+    .ncert-p, .ncert-flex-element p{
+        margin: 6% 7%;
         font-size: 20px;
         text-align:justify;
         font-family: Lato,sans-serif;
     }
 
-    .flex-element p{
+    .ncert-flex-element p{
         text-align: center!important;
     }
 
-    #element1 li, #element1 p{
-        margin-left: 9%;
-        margin-right: 9%;
-        font-size: 20px;
+    #ncert-element1 li, #ncert-element1 p{
+        margin:0 9%;
         text-align: justify;
         font-family: Lato,sans-serif;
     }
@@ -154,20 +137,16 @@
         font-size: 25px;
     }
 
-    #element1{
-        margin-left: 4%;
+    #ncert-element1{
+        margin:0 4%;
         padding: 1vh 0vh;
-        margin-right: 4%;
-        margin-top: 20px;
     }
 
-    .flex-element img{
+    .ncert-flex-element img{
         width: 76%;
     }
-}
 
-@media only screen and (max-width: 1200px){
-    #abacus, #cone, #cylinder{
+    #ncert-abacus, #ncert-cone, #ncert-cylinder{
         display: none;
     }
 }
